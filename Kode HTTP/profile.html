@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+        }
+
+        .profile-picture {
+            width: 300px;
+            height: 200px;
+            border: 5px solid white;
+            background-color: white;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+        }
+
+        .profile-info h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .profile-info p {
+            font-size: 1.2rem;
+            margin: 5px 0;
+        }
+
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            color: #333;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-picture">
+            <img src="profile2.jpg" alt="Profile Picture">
+        </div>
+        <div class="profile-info">
+            <h1>We Are K-03</h1>
+            <p>Class K-03 is an exciting and vibrant group filled with energy and creativity. The students are not only hardworking but also know how to make every moment enjoyable. Whether it's collaborating on group projects, cracking jokes during breaks, or organizing fun events, K-03 always brings a lively atmosphere to the table. The strong bond among classmates creates a supportive environment where everyone feels included and valued. From lively discussions to spontaneous laughter, the classroom is always buzzing with positivity. It’s not just a place to learn but also a space to grow together as a family. K-03 truly knows how to balance academic excellence with unforgettable moments of joy!</p>
+        </div>
+        <a href="index.html" class="back-button">Kembali ke Halaman Utama!! ⸜(｡˃ ᵕ ˂ )</a>
+    </div>
+</body>
+</html>
