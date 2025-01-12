@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Frame</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .instagram-frame {
+            width: 350px;
+            height: 380px;
+            border: 10px solid white;
+            border-radius: 15px;
+            position: relative;
+            box-sizing: border-box;
+            background-color: #f0f0f0;
+            overflow: hidden;
+        }
+
+        .instagram-frame img {
+            width: 100%;
+            height: calc(100% - 50px);
+            object-fit: cover;
+        }
+
+        .bottom-bar {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+
+        .text {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            color: black;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .header1, .header2, .header3, .header4 {
+            margin: 0px;
+            margin-bottom: -40px;
+        }
+
+        .header1 {
+            font-family: verdana, arial;
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+            font-weight: 800;
+        }
+
+        .header2 {
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            color: rgb(222, 191, 243);
+        }
+
+        .header3 {
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            color: rgb(222, 191, 243);
+        }
+
+        .header4 {
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+            color: rgb(255, 255, 255);
+        }
+
+        .button-container {
+            margin-top: 35px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: rgba(255, 236, 236, 0.714);
+            border: none;
+            border-radius: 10px;
+            color: rgb(54, 53, 53);
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="instagram-frame">
+            <img src="profile1.jpg" alt="Profile Picture">
+            <div class="bottom-bar">
+                <span class="text">II2120-Jaringan Komputer</span>
+            </div>
+        </div>
+        <div class="info">
+            <div class="header1">
+                <p>Nakeisha Valya Shakila</p>
+            </div>
+            <div class="header2">
+                <p>── .✦18223133</p>
+            </div>
+            <div class="header3">
+                <p>── .✦She/Her</p>
+            </div>
+            <div class="button-container">
+                <a class="button" href="profile.html" target="_blank">Ayo Kenalan dengan K-03!! ⸜(｡˃ ᵕ ˂ )</a>
+            </div>
+            <div class="header4">
+                <p>⬆ Click Untuk Melihat Halaman Selanjutnya ⬆</p>
+            </div>            
+        </div>
+    </div>
+</body>
+</html>
